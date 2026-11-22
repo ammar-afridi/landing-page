@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: #17152B;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navigation{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navigation a{
+    transition: color 0.3s ease;
+}
+
+.explore-btn{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #7552C7;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation a:hover{
+    color: #C4B5FD;
+}
+
+.explore-btn:hover {
+    color: #17152B;
+    background-color: #C4B5FD;
+}
