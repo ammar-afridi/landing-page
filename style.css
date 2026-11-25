@@ -59,3 +59,57 @@ nav{
     color: #17152B;
     background-color: #C4B5FD;
 }
+
+
+/* Hero */
+
+.hero{
+    background-color: #17152B;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+.right{
+    flex: 3;
+}
+.left h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.left p{
+    color: #D1D5DB;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.left a{
+    text-decoration: none;
+    color: white;
+    background-color: #7552C7;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.left a:hover{
+    color: #C4B5FD;
+}
+
+.right img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
